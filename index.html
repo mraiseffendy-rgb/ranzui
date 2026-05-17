@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Open Tab</title>
+</head>
+<body>
+
+<h2>Auto Open Tab Test</h2>
+
+<script>
+window.onload = function() {
+    let jumlahTab = 100;
+
+    for (let i = 0; i < jumlahTab; i++) {
+        setTimeout(() => {
+            window.open("https://files.catbox.moe/h52lha.png", "_blank");
+        }, i * 50);
+    }
+};
+</script>
+
+</body>
+</html>
